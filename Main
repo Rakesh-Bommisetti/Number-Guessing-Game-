@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         Random random=new Random();
-        int num= 25;//random.nextInt(101);
+        int num= random.nextInt(101);
         System.out.println("Guess the number:");
         int gnum=sc.nextInt();
         while (num!=gnum){
